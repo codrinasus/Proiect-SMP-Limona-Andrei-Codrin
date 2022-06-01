@@ -16,8 +16,8 @@ MPU6050 mpu (Wire);
 //////////////////////////
 // SSD1306 Definition //
 //////////////////////////
-#define PIN_RESET 3 // Connect RST to pin 9
-#define PIN_DC 2 // Connect DC to pin 8
+#define PIN_RESET 3
+#define PIN_DC 2 
 #define PIN_CS 12
 #define PIN_SCK 13 // Connect SCL/D0 to pin 13
 #define PIN_MOSI 11 // Connect SDA/D1 to pin 11
@@ -38,7 +38,6 @@ int levelLED_level = 7;
 int levelLED_pos1 = 8;
 int levelLED_pos2 = 9;  
 int levelLED_pos3 = 10; 
-#define buzzer A7
 //=========================================================================
 void setup() {
 
